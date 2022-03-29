@@ -1,0 +1,102 @@
+a.a1:link,
+a.a1:visited {
+  color: brown;
+  background-color: aliceblue;
+  border: 1px solid green;
+}
+a.a1:hover {
+  color: aqua;
+  background-color: rgb(48, 119, 48);
+}
+a.a2:hover {
+  color: aqua;
+  background-color: red;
+}
+
+a.a1:active {
+  color: #fff;
+  background-color: #000;
+}
+
+a.a3:link,
+a.a3:visited {
+  color: rgb(30, 72, 210);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  background-color: unset;
+  border: unset;
+}
+
+a.a3:hover {
+  color: black;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+}
+
+ul {
+  font-size: large;
+  /* list-style-position: inside;
+  display: inline-block; */
+}
+ul li {
+  font-size: initial;
+}
+
+ol {
+  font-size: large;
+  list-style-position: inside;
+  display: inline-block;
+}
+ol li {
+  font-size: initial;
+}
+
+.list-none {
+  list-style-type: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.list-none li {
+  color: aquamarine;
+  margin: 10px;
+  padding: 10px;
+}
+
+.list-none li:hover {
+  color: black;
+  background-color: chartreuse;
+  padding: 10px;
+}
+
+#employee-table th,
+#employee-table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+#employee-table {
+  width: 100%;
+}
+#employee-table th {
+  text-align: center;
+  background-color: rgb(43, 179, 104);
+  color: rgb(75, 7, 30);
+  height: 50px;
+}
+
+#employee-table tr:nth-child(even) {
+  background-color: rgb(166, 179, 194);
+}
+#employee-table tr:hover {
+  background-color: rgb(187, 161, 228);
+  color: rgb(13, 27, 15);
+}
+#employee-table .vertical1 {
+  height: 70px;
+  vertical-align: bottom;
+}
+#employee-table caption {
+  caption-side: top;
+  text-align: center;
+}

@@ -1,0 +1,118 @@
+--> CSS - Cascading Style Sheet.
+--> used for formatting the layout of the webpage.
+--> major functions are to customise font,text,color,what background,spacing between elements,
+how the elements to be positioned and layouted.also display for diffrent screens etc.
+--> We can add CSS into HTML by 3 ways,
+        1. Inline - By using "style" arrtibute in html tags.
+        2. Internel - By using <style> element in the <head> section.
+        3. External - By using <link> element in the <head> section for linling the external file (most commen way)
+--> External CSS is a file which has the .css extention.
+--> To link external CSS into HTML file by the help of 'link' element. (<link rel="stylesheet href="css resource">)
+--> Don't add space between property value and unit.
+--> CSS selectors are pointing to the HTML elements.
+--> CSS rule for selectors and properties declaration
+        1. Element selector --> simply using the element name (h1 {color:red; font-size:200px;})
+        2. Id selector --> '#' folowed by Id name (#id1 {color:blue; font-size:100px;})
+        3. Class selector --> '.' followed by class name (.class1 {color:powderblue; font-size:50px;})
+        4. Group selector --> comma seperated multiple element name (h1,p,h3 {color:black; font-family: vertana;})
+        5. Class-element selector --> element name followed by period and class name (p.class2 {color:green;})
+        6. Universal selector --> using * as selector for all elements (* { color:pink;})
+--> Cascadding order
+        1. Inline CSS (highest priority)
+        2. Internal and external
+        3. Browser default.
+
+--> Colors in CSS can specified with predifined names,RGB,HEX,RGBA,HSL,HSLA.
+        1. RGB stands for Red,Green,Blue each having the value range from 0 to 255
+        2. rgb(0,0,0) --> black, rgb(255,255,255) --> white, rgb(100,100,100) --> gray shadding(equal values are gray family)
+        3. RGBA -> extension of RGB with alpha channel (ehich specifies the opacity of color)
+        4. alpha parameter varies from the number 0.0(fully transparent) to 1.0(not transparent at all)
+        5. HEX --> Hexa decimal Value (#rrggbb) where rr -> red,gg -> green, bb -> green.
+        6. In HEX values varies from 00(min equal to 0 in rgb) to ff(max equal to 255 in rgb) 
+        7. #000000 --> black ,#fffffff --> white, #ff0000 --> red and so on.
+        8. We can also use three digit hexa decimal #fff which is equivalent to #ffffff.
+        9. HSL --> stands for Hue,Saturation,Lightness hue varies from 0 to 360(0 -> red, 120 -> green,240 -> blue)
+        10. lightness -> 0% fro black ,100 % fro light.
+        11. saturation 0% for shade of gray, 100% for full color.
+
+--> Opacity or Transparent can be achived by both using 'rgba' and 'opacity' property.
+--> When using a background image, use an image that does not disturb the text.
+
+--> Background shorthand properties order
+        1. background-color
+        2. background-image
+        3. background-repeat
+        4. background-position
+        5. background-attachement
+--> Background-clip properties defines how far the background should extend the element.
+--> Background-origin properties defines how far the background image should extend the element.
+--> Background-origin has no effect when background-attachment is fixed.
+
+--> border-width property only works only when the border-style exist.
+--> border-width property can have value from  1 to 4.
+--> border-width can be specified with diffrent size units(px,cm,em,etc) also one of the predefined values like thin,medium,thick.
+
+--> Margins are used to create a space around elements,outside of any defined borders.
+--> Margins are also allowed negative values.
+--> Margin property with the value of 'auto' cause the element being horizontally center within its container.
+--> Margin collape means that collaping two margins into one(having the size of one of the highest size.)
+--> Margin collapse only takes place only in the place of top and bottom.
+
+--> Paddings are used to create a space around element's content, inside of any defined borders.
+--> Content area is a portion inside the margin,border and padding.
+--> If a element have padding and width cause creates a new size(width + padding)
+
+--> height and width properties are don't include padding,borders or margin.
+--> They set the height/width of the area inside the padding,margin amd border.
+--> If a element having both the width and max-width property,and the width value greater than max-width value, the max-width 
+property will take the accountability and .
+--> 'auto' value is the default value od heigth and width property.
+
+--> All HTML element can be consider as boxes.
+--> Box model is essentailly a box that wraps around every HTML element.it consist of margin,border,padding,content.
+
+--> Ouutlines are used to draw a line arround element border.
+--> This also don't inculde inside the element width and height.
+--> Outline-width property is required one.
+--> like border, it have style,width and color properties.
+        >> width:thin -> 1px
+        >> width:medium -> 3px
+        >> width:thick -> 5px
+
+--> High contrast is crucial between text color and background-color.
+--> left alignment is default if the text direction is left-right.
+--> right alignment is default if the text direction is right-left.
+--> It is not recommended to underline the text that is not a link.
+
+--> Font selection is crucial.
+--> In CSS,there are 5 generic font families.
+        >> Serif --> it has small strokes at the edges. (times new roman,georgia,garamond)
+        >> Sans-serif --> it has clean lines (no stokes at edges) (arial,verdana,helvetica)
+        >> Monospace --> all the letters have the same fixed width.(courier new ,lucida console,monaco)
+        >> Cursive --> imitate human handwrings. (brush script,lucida handwriting)
+        >> Fantacy --> more decorative fonts. (copperplate,papyrus)
+--> if the font name is more than one word, it must be quoted.
+--> Font family property should have several font names as 'fallback' system.
+--> we can start with the desired list of font name and ends with font specific font family.
+--> list of web safe fonts are,
+        >> Arial (sans-serif) (default font in google docs)
+        >> Verdana (sans-serif)
+        >> Helvetica (sans-serif)
+        >> Tahoma (sans-serif) (less space between chars)
+        >> Terbuchet MS (sans-serif)
+        >> Times New Roman (serif) (primary fonts for windows)
+        >> Georgia (serif)
+        >> Garamond (serif)
+        >> Courier New (monospace) (often used in coding displays)
+        >> Brush Script MT (cursive)
+--> default textsize in browser is 16px.
+--> 1 em = 16 pixels.
+--> 1vw = 1% of the view port width.
+
+--> Link can be style in different way depends upon the state.
+        >> link  --> default, unvisited
+        >> visited --> visited state
+        >> hover --> when hovering the link
+        >> active --> when clicking the link
+
+The "display" property is the most important CSS property for controlling layout.

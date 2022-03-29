@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon|outline"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="first.css" />
+    <script
+      src="https://kit.fontawesome.com/ed2ae3d446.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="icons8-css3-48.png" />
+    <title>LEARN CSS</title>
+    <style>
+      mark {
+        font-family: Verdana;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(199, 212, 212)">
+    <h3>Colors in CSS</h3>
+    <p style="color: rgb(0, 0, 0); background-color: rgb(30, 144, 255)">
+      RGB color --> <mark>rgb(30, 144, 255)</mark>
+    </p>
+    <p style="color: black; background-color: dodgerblue">
+      color name --> <mark> dodgerblue</mark>
+    </p>
+
+    <p style="color: black; background-color: rgba(30, 144, 255, 0.5)">
+      RGBA color --> <mark>rgba(30, 144, 255, 0.5)</mark>
+    </p>
+
+    <p style="color: #000000; background-color: #1e90ff">
+      HEX color --> <mark>#1e90ff</mark>
+    </p>
+    <br />
+
+    <h3>Background in CSS</h3>
+    <div style="background-color: burlywood">
+      Background color Start
+      <p style="background-color: bisque">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+        incidunt consequuntur, ab dolorum id et perferendis sit dolor ut dicta,
+        similique aliquid quas inventore pariatur nisi vitae quisquam commodi
+        officia.
+      </p>
+      Backgrount color End
+    </div>
+    <br />
+
+    <h3>Opacity/Transparency in CSS</h3>
+    <p style="background-color: #1e90ff; opacity: 1">
+      This element with <mark>opacity --> 1</mark>
+    </p>
+    <p style="background-color: #1e90ff; opacity: 0.7">
+      This element with <mark>opacity --> 0.7</mark>
+    </p>
+    <p style="background-color: #1e90ff; opacity: 0.35">
+      This element with <mark>opacity --> 0.35</mark>
+    </p>
+    <p style="background-color: #1e90ff; opacity: 0.1">
+      This element with <mark>opacity --> 0.1</mark>
+    </p>
+    <br />
+
+    <h3>background Image</h3>
+    <p>Background Image with default repeat</p>
+    <p
+      style="
+        background-image: url(resize-1648110645148162741youtubeg6c2ca28851280.png);
+      "
+    >
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      neque praesentium illum necessitatibus ipsa quibusdam sequi explicabo nisi
+      recusandae iusto, voluptatem minima porro nostrum non in blanditiis. Amet,
+      minima molestias? Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Perspiciatis, neque praesentium illum necessitatibus ipsa quibusdam
+      sequi explicabo nisi recusandae iusto, voluptatem minima porro nostrum non
+      in blanditiis. Amet, minima molestias? Lorem, ipsum dolor sit amet
+      consectetur adipisicing elit. Perspiciatis, neque praesentium illum
+      necessitatibus ipsa quibusdam sequi explicabo nisi recusandae iusto,
+      voluptatem minima porro nostrum non in blanditiis. Amet, minima molestias?
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      neque praesentium illum necessitatibus ipsa quibusdam sequi explicabo nisi
+      recusandae iusto, voluptatem minima porro nostrum non in blanditiis. Amet,
+      minima molestias? Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Perspiciatis, neque praesentium illum necessitatibus ipsa quibusdam
+      sequi explicabo nisi recusandae iusto, voluptatem minima porro nostrum non
+      in blanditiis. Amet, minima molestias?
+    </p>
+
+    <p>Background Image with horizontal repeat</p>
+    <p
+      style="
+        background-image: url(resize-1648110645148162741youtubeg6c2ca28851280.png);
+        background-repeat: repeat-x;
+      "
+    >
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      neque praesentium illum necessitatibus ipsa quibusdam sequi explicabo nisi
+      recusandae iusto, voluptatem minima porro nostrum non in blanditiis. Amet,
+      minima molestias? Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Perspiciatis, neque praesentium illum necessitatibus ipsa quibusdam
+      sequi explicabo nisi recusandae iusto, voluptatem minima porro nostrum non
+      in blanditiis. Amet, minima molestias? Lorem, ipsum dolor sit amet
+      consectetur adipisicing elit. Perspiciatis, neque praesentium illum
+      necessitatibus ipsa quibusdam sequi explicabo nisi recusandae iusto,
+      voluptatem minima porro nostrum non in blanditiis. Amet, minima molestias?
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      neque praesentium illum necessitatibus ipsa quibusdam sequi explicabo nisi
+      recusandae iusto, voluptatem minima porro nostrum non in blanditiis. Amet,
+      minima molestias? Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Perspiciatis, neque praesentium illum necessitatibus ipsa quibusdam
+      sequi explicabo nisi recusandae iusto, voluptatem minima porro nostrum non
+      in blanditiis. Amet, minima molestias?
+    </p>
+
+    <p>Background Image with vertical repeat</p>
+    <p
+      style="
+        background-image: url(resize-1648110645148162741youtubeg6c2ca28851280.png);
+        background-repeat: repeat-y;
+      "
+    >
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      neque praesentium illum necessitatibus ipsa quibusdam sequi explicabo nisi
+      recusandae iusto, voluptatem minima porro nostrum non in blanditiis. Amet,
+      minima molestias? Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Perspiciatis, neque praesentium illum necessitatibus ipsa quibusdam
+      sequi explicabo nisi recusandae iusto, voluptatem minima porro nostrum non
+      in blanditiis. Amet, minima molestias? Lorem, ipsum dolor sit amet
+      consectetur adipisicing elit. Perspiciatis, neque praesentium illum
+      necessitatibus ipsa quibusdam sequi explicabo nisi recusandae iusto,
+      voluptatem minima porro nostrum non in blanditiis. Amet, minima molestias?
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      neque praesentium illum necessitatibus ipsa quibusdam sequi explicabo nisi
+      recusandae iusto, voluptatem minima porro nostrum non in blanditiis. Amet,
+      minima molestias? Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Perspiciatis, neque praesentium illum necessitatibus ipsa quibusdam
+      sequi explicabo nisi recusandae iusto, voluptatem minima porro nostrum non
+      in blanditiis. Amet, minima molestias?
+    </p>
+
+    <p>Background Image with no repeat</p>
+    <p
+      style="
+        background-image: url(resize-1648110645148162741youtubeg6c2ca28851280.png);
+        background-repeat: no-repeat;
+      "
+    >
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      neque praesentium illum necessitatibus ipsa quibusdam sequi explicabo nisi
+      recusandae iusto, voluptatem minima porro nostrum non in blanditiis. Amet,
+      minima molestias? Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Perspiciatis, neque praesentium illum necessitatibus ipsa quibusdam
+      sequi explicabo nisi recusandae iusto, voluptatem minima porro nostrum non
+      in blanditiis. Amet, minima molestias? Lorem, ipsum dolor sit amet
+      consectetur adipisicing elit. Perspiciatis, neque praesentium illum
+      necessitatibus ipsa quibusdam sequi explicabo nisi recusandae iusto,
+      voluptatem minima porro nostrum non in blanditiis. Amet, minima molestias?
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      neque praesentium illum necessitatibus ipsa quibusdam sequi explicabo nisi
+      recusandae iusto, voluptatem minima porro nostrum non in blanditiis. Amet,
+      minima molestias? Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Perspiciatis, neque praesentium illum necessitatibus ipsa quibusdam
+      sequi explicabo nisi recusandae iusto, voluptatem minima porro nostrum non
+      in blanditiis. Amet, minima molestias?
+    </p>
+
+    <p>Background Image with position</p>
+    <p
+      style="
+        background-image: url(resize-1648110645148162741youtubeg6c2ca28851280.png);
+        background-color: greenyellow;
+        background-repeat: no-repeat;
+        background-position: center left;
+      "
+    >
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      neque praesentium illum necessitatibus ipsa quibusdam sequi explicabo nisi
+      recusandae iusto, voluptatem minima porro nostrum non in blanditiis. Amet,
+      minima molestias? Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Perspiciatis, neque praesentium illum necessitatibus ipsa quibusdam
+      sequi explicabo nisi recusandae iusto, voluptatem minima porro nostrum non
+      in blanditiis. Amet, minima molestias? Lorem, ipsum dolor sit amet
+      consectetur adipisicing elit. Perspiciatis, neque praesentium illum
+      necessitatibus ipsa quibusdam sequi explicabo nisi recusandae iusto,
+      voluptatem minima porro nostrum non in blanditiis. Amet, minima molestias?
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      neque praesentium illum necessitatibus ipsa quibusdam sequi explicabo nisi
+      recusandae iusto, voluptatem minima porro nostrum non in blanditiis. Amet,
+      minima molestias? Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Perspiciatis, neque praesentium illum necessitatibus ipsa quibusdam
+      sequi explicabo nisi recusandae iusto, voluptatem minima porro nostrum non
+      in blanditiis. Amet, minima molestias?
+    </p>
+
+    <p>Background Image with fixed attachment</p>
+    <p
+      style="
+        background-image: url(pexels-tamanna-rumee-8823856.jpg);
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-attachment: fixed;
+      "
+    >
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      neque praesentium illum necessitatibus ipsa quibusdam sequi explicabo nisi
+      recusandae iusto, voluptatem minima porro nostrum non in blanditiis. Amet,
+      minima molestias? Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Perspiciatis, neque praesentium illum necessitatibus ipsa quibusdam
+      sequi explicabo nisi recusandae iusto, voluptatem minima porro nostrum non
+      in blanditiis. Amet, minima molestias? Lorem, ipsum dolor sit amet
+      consectetur adipisicing elit. Perspiciatis, neque praesentium illum
+      necessitatibus ipsa quibusdam sequi explicabo nisi recusandae iusto,
+      voluptatem minima porro nostrum non in blanditiis. Amet, minima molestias?
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      neque praesentium illum necessitatibus ipsa quibusdam sequi explicabo nisi
+      recusandae iusto, voluptatem minima porro nostrum non in blanditiis. Amet,
+      minima molestias? Lorem, ipsum dolor sit amet consectetur adipisicing
+      elit. Perspiciatis, neque praesentium illum necessitatibus ipsa quibusdam
+      sequi explicabo nisi recusandae iusto, voluptatem minima porro nostrum non
+      in blanditiis.
+    </p>
+
+    <p>Background image with scroll attachment</p>
+    <p
+      style="
+        background-image: url(pexels-tamanna-rumee-8823856.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+      "
+    >
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quod porro
+      labore facilis quis cumque laboriosam? Delectus culpa dicta quidem fuga,
+      quia maiores libero corporis nam nisi. Tempore, inventore corporis? Lorem,
+      ipsum dolor sit amet consectetur adipisicing elit. Qui quod porro labore
+      facilis quis cumque laboriosam? Delectus culpa dicta quidem fuga, quia
+      maiores libero corporis nam nisi. Tempore, inventore corporis? Lorem,
+      ipsum dolor sit amet consectetur adipisicing elit. Qui quod porro labore
+      facilis quis cumque laboriosam? Delectus culpa dicta quidem fuga, quia
+      maiores libero corporis nam nisi. Tempore, inventore corporis? Lorem,
+      ipsum dolor sit amet consectetur adipisicing elit. Qui quod porro labore
+      facilis quis cumque laboriosam? Delectus culpa dicta quidem fuga, quia
+      maiores libero corporis nam nisi. Tempore, inventore corporis?
+    </p>
+
+    <p>Background shorthand properties</p>
+    <p
+      style="
+        background: #1e90ff
+          url(resize-1648110645148162741youtubeg6c2ca28851280.png) no-repeat top
+          right scroll;
+      "
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod adipisci
+      commodi sapiente quaerat nulla earum eius aspernatur tempore sequi atque?
+      Cum, tempore voluptatem asperiores blanditiis sed impedit id error
+      expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+      adipisci commodi sapiente quaerat nulla earum eius aspernatur tempore
+      sequi atque? Cum, tempore voluptatem asperiores blanditiis sed impedit id
+      error expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Quod adipisci commodi sapiente quaerat nulla earum eius aspernatur tempore
+      sequi atque? Cum, tempore voluptatem asperiores blanditiis sed impedit id
+      error expedita!
+    </p>
+
+    <p>Background clip</p>
+    <p
+      style="
+        background-clip: border-box;
+        border: 4px dotted black;
+        background-color: aquamarine;
+        padding: 10px;
+      "
+    >
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis odit
+      adipisci earum quae amet doloremque sed ratione fugiat alias! Ipsam autem
+      impedit, sit odio itaque velit perspiciatis optio quos enim?
+    </p>
+
+    <p
+      style="
+        background-clip: padding-box;
+        background-color: aquamarine;
+        border: 4px dotted black;
+        padding: 10px;
+      "
+    >
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis odit
+      adipisci earum quae amet doloremque sed ratione fugiat alias! Ipsam autem
+      impedit, sit odio itaque velit perspiciatis optio quos enim?
+    </p>
+
+    <p
+      style="
+        background-clip: content-box;
+        background-color: aquamarine;
+        border: 4px dotted black;
+        padding: 10px;
+      "
+    >
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis odit
+      adipisci earum quae amet doloremque sed ratione fugiat alias! Ipsam autem
+      impedit, sit odio itaque velit perspiciatis optio quos enim?
+    </p>
+
+    <p>Background orgin</p>
+    <p
+      style="
+        background-image: url(resize-1648110645148162741youtubeg6c2ca28851280.png);
+        border: 2px dashed black;
+        padding: 10px;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-color: aquamarine;
+      "
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+      voluptas harum beatae a non consectetur perferendis neque. Eum
+      necessitatibus culpa iusto nobis, odio maxime incidunt. Sunt modi iusto
+      natus voluptas.
+    </p>
+
+    <h3>Boders in CSS</h3>
+    <p>Border style</p>
+    <p style="border-style: dotted; background-color: aliceblue">
+      This is <mark>dotted</mark> border element
+    </p>
+    <p style="border-style: dashed; background-color: aliceblue">
+      This is <mark>dashed</mark> border element
+    </p>
+    <p style="border-style: solid; background-color: aliceblue">
+      This is <mark>solid</mark> border element
+    </p>
+    <p style="border-style: double; background-color: aliceblue">
+      This is <mark>double</mark> border element
+    </p>
+    <p style="border-style: groove; background-color: aliceblue">
+      This is <mark>groove</mark> border element
+    </p>
+    <p style="border-style: ridge; background-color: aliceblue">
+      This is <mark>ridge</mark> border element
+    </p>
+    <p style="border-style: inset; background-color: aliceblue">
+      This is <mark>inset</mark> border element
+    </p>
+    <p style="border-style: outset; background-color: aliceblue">
+      This is <mark>outset</mark> border element
+    </p>
+    <p style="border-style: none; background-color: aliceblue">
+      This is <mark>none</mark> border element
+    </p>
+    <p style="border-style: hidden; background-color: aliceblue">
+      This is <mark>hidden</mark> border element
+      <mark>border-style: hidden; background-color: aliceblue</mark>
+    </p>
+    <br />
+
+    <p>Border width</p>
+    <p style="border-width: 5px; border-style: groove">
+      Border width having the size of 5px
+      <mark>border-width: 5px; border-style: groove</mark>
+    </p>
+    <p style="border-width: 10px; border-style: groove">
+      Border width having the size of 10px
+      <mark>border-width: 10px; border-style: groove</mark>
+    </p>
+    <p
+      style="
+        border-style: groove;
+        border-width: 2px 10px;
+        border-color: #0b7de7;
+      "
+    >
+      top and bottom border ahving same width and two sides having same width
+      <mark
+        >border-style: groove; border-width: 2px 10px; border-color:
+        #0b7de7;</mark
+      >
+    </p>
+
+    <p
+      style="
+        border-style: groove;
+        border-width: 2px 5px 15px 20px;
+        border-color: #0b7de7;
+      "
+    >
+      4 side having different border widths
+      <mark
+        >border-style: groove; border-width: 2px 5px 15px 20px; border-color:
+        #0b7de7;</mark
+      >
+    </p>
+
+    <p>Border color</p>
+    <p style="border-style: solid; border-color: red green yellow blue">
+      4 different color on 4 side of the border
+      <mark>border-style: solid; border-color: red green yellow blue</mark>
+    </p>
+
+    <p>Border individual sides</p>
+    <!-- <div style="background-color: aquamarine; border-style: solid"> -->
+    <p
+      style="
+        border-left-color: #062e57;
+        border-left-style: solid;
+        border-left-width: 5px;
+        border-right-color: #062e57;
+        border-right-style: solid;
+        border-right-width: 5px;
+        background-color: #bec3c9;
+        padding-left: 20px;
+      "
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+      adipisci ex velit ipsum dolor, nobis accusamus aut fugiat assumenda
+      corrupti repudiandae veritatis veniam atque inventore at accusantium
+      quidem ab doloremque.
+      <mark
+        >border-left-color: #062e57; border-left-style: solid;
+        border-left-width: 5px; border-right-color: #062e57; border-right-style:
+        solid; border-right-width: 5px; background-color: #bec3c9; padding-left:
+        20px;</mark
+      >
+    </p>
+    <!-- </div> -->
+
+    <p>Border shorthand property</p>
+    <p style="border: 5px solid #ff0000; border-bottom: 5px solid blue">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+      adipisci ex velit ipsum dolor, nobis accusamus aut fugiat assumenda
+      corrupti repudiandae veritatis veniam atque inventore at accusantium
+      quidem ab doloremque.
+      <mark>border: 5px solid #ff0000; border-bottom: 5px solid blue</mark>
+    </p>
+
+    <p>Rounded border</p>
+    <p style="border: 5px solid navy; border-radius: 50px; padding: 10px">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio tempore
+      voluptate laborum sunt odit tenetur magnam voluptatem mollitia officia
+      beatae? Magnam excepturi numquam dolorum earum rem dicta facere
+      voluptates.
+      <mark>border: 5px solid navy; border-radius: 50px; padding: 10px</mark>
+    </p>
+
+    <h3>Margin property</h3>
+    <p>Margin property with 'auto'</p>
+    <p style="margin: auto; border: 1px solid black; width: 400px">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quas?
+      Nisi animi eos blanditiis totam accusamus autem aliquam recusandae! Ab
+      velit nesciunt rem fugit cum laboriosam natus ipsum provident dicta!
+      <mark> style="margin: auto; border: 1px solid black; width: 400px"</mark>
+    </p>
+
+    <p>Margin shorthand property</p>
+    <p style="margin: 50px 100px 150px 200px; border: 1px solid black">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quas?
+      Nisi animi eos blanditiis totam accusamus autem aliquam recusandae! Ab
+      velit nesciunt rem fugit cum laboriosam natus ipsum provident dicta!
+      <mark> style="margin: auto; border: 1px solid black; width: 400px"</mark>
+    </p>
+
+    <p>Margin property with inherit</p>
+    <div style="margin-left: 50px">
+      <p style="margin-left: inherit; border: 1px solid black">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quas?
+        Nisi animi eos blanditiis totam accusamus autem aliquam recusandae! Ab
+        velit nesciunt rem fugit cum laboriosam natus ipsum provident dicta!
+        <mark>
+          style="margin: auto; border: 1px solid black; width: 400px"</mark
+        >
+      </p>
+    </div>
+    <br />
+    <h3>Padding property</h3>
+    <p style="border: 1px solid black; padding: 50px 25px">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+      doloremque non ipsum quibusdam, nemo ex explicabo aliquam, veniam corporis
+      laborum minus. Consequuntur magnam laborum a deleniti tenetur nam error
+      beatae?<mark>style="border: 1px solid black; padding: 50px 25px"</mark>
+    </p>
+
+    <p>Padding with element width</p>
+    <p style="width: 300px; border: 1px solid black">
+      I am only having width
+      <mark>style="width: 300px; border: 1px solid black"</mark>
+    </p>
+    <p style="padding: 50px; width: 300px; border: 1px solid #000">
+      I am having both width and padding
+      <mark>style="padding: 50px; width: 300px; border: 1px solid #000"</mark>
+    </p>
+    <p
+      style="
+        width: 300px;
+        padding: 50px;
+        box-sizing: border-box;
+        border: 1px solid #000;
+      "
+    >
+      I am having padding,width and box-sizing
+      <mark
+        >style=" width: 300px; padding: 50px; box-sizing: border-box; border:
+        1px solid #000; "</mark
+      >
+    </p>
+
+    <p>width and max-width property</p>
+    <p
+      style="
+        max-width: 200px;
+        width: 500px;
+        max-height: 300px;
+        border: 1px solid black;
+      "
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus
+      corrupti culpa, hic saepe voluptate eius debitis, porro eveniet deleniti
+      at accusantium repellat? Dicta dolorem veritatis minima perspiciatis vitae
+      necessitatibus atque!
+      <mark
+        >style=" max-width: 200px; width: 500px; max-height: 300px; border: 1px
+        solid black; "</mark
+      >
+    </p>
+
+    <p>height property</p>
+    <p style="height: 200px; border: 1px solid black">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus
+      corrupti culpa, hic saepe voluptate eius debitis, porro eveniet deleniti
+      at accusantium repellat? Dicta dolorem veritatis minima perspiciatis vitae
+      necessitatibus atque!
+      <mark>style="height: 200px; border: 1px solid black"></mark>
+    </p>
+    <br />
+    <h3>Box model in CSS</h3>
+    <p style="border: 10px solid blue; padding: 25px; margin: 25px">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis,
+      laborum nihil quos veniam architecto neque itaque odit repellendus illo a
+      dolorem velit, officia quasi quo molestias sequi, obcaecati temporibus
+      inventore.
+      <mark>style="border: 10px solid blue; padding: 25px; margin: 25px"></mark>
+    </p>
+    <br />
+
+    <h3>Outline property</h3>
+    <p
+      style="
+        border: 10px ridge red;
+        outline-style: ridge;
+        outline-color: blue;
+        outline-width: 10px;
+      "
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam assumenda
+      recusandae, at dolorum repellendus, labore dolor quas dolore eos sed
+      asperiores exercitationem tenetur magni odit! Molestias dolores neque illo
+      deserunt.
+      <mark
+        >style=" border: 10px ridge red; outline-style: ridge; outline-color:
+        blue; outline-width: 10px; "</mark
+      >
+    </p>
+
+    <p style="outline: thin solid blue; border: thin solid black">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita fugit
+      repellendus laudantium quisquam officiis labore amet nostrum suscipit
+      numquam nobis sequi sint assumenda, maxime cum nemo totam unde voluptas
+      possimus?
+      <mark>style="outline: thin solid blue; border: thin solid black"</mark>
+    </p>
+
+    <p style="outline: medium solid blue; border: thin solid black">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita fugit
+      repellendus laudantium quisquam officiis labore amet nostrum suscipit
+      numquam nobis sequi sint assumenda, maxime cum nemo totam unde voluptas
+      possimus?
+      <mark>style="outline: medium solid blue; border: thin solid black"</mark>
+    </p>
+
+    <p style="outline: thick solid blue; border: thin solid black">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita fugit
+      repellendus laudantium quisquam officiis labore amet nostrum suscipit
+      numquam nobis sequi sint assumenda, maxime cum nemo totam unde voluptas
+      possimus?
+      <mark>style="outline: thick solid blue; border: thin solid black"</mark>
+    </p>
+    <br />
+    <p>outline offset property</p>
+    <p
+      style="
+        margin: 50px;
+        border: thin solid #000;
+        padding: 25px;
+        outline: medium solid #f00;
+        outline-offset: 25px;
+      "
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ex tempore
+      eos animi reiciendis iusto praesentium ea, illo neque veniam ut ad.
+      Voluptatem facilis, perspiciatis unde exercitationem neque aliquam
+      eligendi?
+      <mark
+        >style=" margin: 50px; border: thin solid #000; padding: 25px; outline:
+        medium solid #f00; outline-offset: 25px; "</mark
+      >
+    </p>
+    <br />
+
+    <h3>Text in CSS</h3>
+    <p><strong>Text alignments</strong></p>
+
+    <p>Text left align</p>
+    <p style="text-align: left; border: thin solid black">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid enim non
+      nisi id deleniti laborum rerum unde, dolore eum laudantium maxime velit
+      officiis repudiandae ipsum. Nemo voluptatem ipsam fugiat ex?
+      <mark>style="text-align: left; border: thin solid black"</mark>
+    </p>
+
+    <p>text right align</p>
+    <p style="text-align: right; border: thin solid black">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid enim non
+      nisi id deleniti laborum rerum unde, dolore eum laudantium maxime velit
+      officiis repudiandae ipsum. Nemo voluptatem ipsam fugiat ex?
+      <mark>style="text-align: right; border: thin solid black"</mark>
+    </p>
+
+    <p>Text center align</p>
+    <p style="text-align: center; border: thin solid black">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid enim non
+      nisi id deleniti laborum rerum unde, dolore eum laudantium maxime velit
+      officiis repudiandae ipsum. Nemo voluptatem ipsam fugiat ex?
+      <mark>style="text-align: center; border: thin solid black"</mark>
+    </p>
+
+    <p>Text Justify</p>
+    <p style="text-align: justify; border: thin solid black">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid enim non
+      nisi id deleniti laborum rerum unde, dolore eum laudantium maxime velit
+      officiis repudiandae ipsum. Nemo voluptatem ipsam fugiat ex?
+      <mark>style="text-align: justify; border: thin solid black"</mark>
+    </p>
+
+    <p>Text last line align</p>
+    <p style="text-align-last: justify; border: thin solid black">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid enim non
+      nisi id deleniti laborum rerum unde, dolore eum laudantium maxime velit
+      officiis repudiandae ipsum. Nemo voluptatem ipsam fugiat ex?
+      <mark>style="text-align: justify; border: thin solid black"</mark>
+    </p>
+
+    <p>Text direction</p>
+    <p style="direction: rtl; border: 1px solid black">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore error
+      deserunt ipsa, non obcaecati fugit neque, molestias excepturi molestiae
+      quasi iure, voluptatibus ad aperiam omnis distinctio hic quisquam eius.
+      Provident. <mark>style="direction: rtl; border: 1px solid black"</mark>
+    </p>
+
+    <p>Text direction with unicaode-bidi property</p>
+    <p
+      style="
+        direction: rtl;
+        unicode-bidi: bidi-override;
+        border: 1px solid #000;
+      "
+    >
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas atque
+      quas earum sequi iusto aspernatur, numquam saepe, impedit eligendi ipsa
+      repellat omnis esse consectetur beatae doloribus illum sapiente
+      voluptatem? Aliquam.
+      <mark
+        >style=" direction: rtl; unicode-bidi: bidi-override; border: 1px solid
+        #000; "</mark
+      >
+    </p>
+
+    <p><strong>Text decoration</strong></p>
+    <p
+      style="
+        border: 1px solid #00f;
+        text-decoration-line: underline;
+        text-decoration-color: #f00;
+        text-decoration-style: dashed;
+        text-decoration-thickness: 3px;
+      "
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus,
+      tempora repellendus! Veniam neque animi deserunt, velit tempore quis nobis
+      esse laboriosam non ipsa maiores nemo fugit, iure suscipit similique
+      libero?
+      <mark
+        >style=" border: 1px solid #00f; text-decoration-line: underline;
+        text-decoration-color: #f00; text-decoration-style: dashed;
+        text-decoration-thickness: 3px; "</mark
+      >
+    </p>
+
+    <p>Text decoration shorthand property</p>
+    <p
+      style="
+        border: 3px solid black;
+        text-decoration: line-through yellow solid 3px;
+      "
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores deserunt
+      quod incidunt, dolorum error minus perspiciatis animi ab sapiente quisquam
+      iste quibusdam totam nihil maiores corporis sequi quasi sed possimus.
+      <mark>
+        style=" border: 1px solid black; text-decoration: line-through yellow
+        solid 3px; "</mark
+      >
+    </p>
+
+    <p>Hyperlink without underline</p>
+    <h6 style="font-size: 20px; margin: 5px 0px; border: 3px solid black">
+      Please
+      <a
+        style="text-decoration: none; color: #00f"
+        href="first.html"
+        target="_blank"
+      >
+        click here</a
+      >
+      <mark style="font-size: initial"
+        >style="text-decoration: none; color: #00f" href="first.html"
+        target="_blank"</mark
+      >
+    </h6>
+
+    <p><strong>Text case transform</strong></p>
+    <p style="text-transform: uppercase; border: 3px solid red">
+      lower case to upper case transformation
+      <mark>style="text-transform: uppercase; border: 1px solid red"</mark>
+    </p>
+
+    <p style="text-transform: lowercase; border: 3px solid red">
+      UPPER CASE TO LOWER CASE TRANSFORMATION
+      <mark>style="text-transform: lowercase; border: 1px solid red"</mark>
+    </p>
+
+    <p style="text-transform: capitalize; border: 3px solid red">
+      lower case to camel case transformation
+      <mark>style="text-transform: capitalize ; border: 1px solid red"</mark>
+    </p>
+
+    <h3>Text spacing</h3>
+    <p><strong>Text indent</strong></p>
+    <p style="text-indent: 50px; border: 3px dotted black">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum deserunt
+      magni sint voluptates quod totam maiores alias autem iure nemo vero nisi
+      saepe quis, doloribus soluta aut adipisci minus id.
+    </p>
+
+    <p><strong>Increased Letter spacing</strong></p>
+    <p style="letter-spacing: 5px; border: 3px solid black">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+      aspernatur aperiam quos nesciunt quas, architecto ad ullam, earum qui et
+      doloribus laboriosam magnam, ut dolorem. Quibusdam consequuntur quasi
+      eveniet debitis?
+      <mark style="letter-spacing: normal"
+        >style="letter-spacing: 5px; border: 3px solid black"</mark
+      >
+    </p>
+
+    <p><strong>Decreased Letter spacing</strong></p>
+    <p style="letter-spacing: -5px; border: 3px solid black">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+      aspernatur aperiam quos nesciunt quas, architecto ad ullam, earum qui et
+      doloribus laboriosam magnam, ut dolorem. Quibusdam consequuntur quasi
+      eveniet debitis?
+      <mark style="letter-spacing: normal"
+        >style="letter-spacing: -5px; border: 3px solid black"</mark
+      >
+    </p>
+
+    <p><strong>Line height property</strong></p>
+    <p style="border: 3px inset blue; line-height: 30px">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum laborum
+      illo distinctio, similique cumque rem doloremque aut, natus voluptatibus
+      maiores quidem? Adipisci cupiditate reprehenderit quibusdam quam autem
+      eligendi quidem laboriosam!
+      <mark>style="border: 3px inset blue; line-height: 30px"</mark>
+    </p>
+
+    <p><strong>Word spacing</strong></p>
+    <p style="border: 3px outset black; word-spacing: 20px">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cumque
+      voluptate tempora itaque soluta, officiis sunt, numquam magni totam
+      aspernatur distinctio qui repellat fuga dignissimos, sequi temporibus
+      illum harum necessitatibus.
+      <mark>style="border: 3px outset black; word-spacing: 20px"</mark>
+    </p>
+
+    <p><strong>White space with nowrap</strong></p>
+    <p style="white-space: nowrap; border: 2px solid blue">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. amet consectetur
+      adipisicing elit.
+      <mark>style="white-space: nowrap; border: 2px solid blue"</mark>
+    </p>
+
+    <p><strong>White space with pre-wrap</strong></p>
+    <p style="white-space: pre-wrap; border: 2px solid blue">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. amet consectetur
+      adipisicing elit.
+      <mark>style="white-space: pre-wrap;border: 2px solid blue"</mark>
+    </p>
+
+    <h3>Text shadow</h3>
+    <h1 style="text-shadow: 2px 2px 15px red">I am the best in the world!</h1>
+    <h1 style="text-shadow: 2px 2px 2px red, 0 0 15px blue">
+      Today is my day!
+    </h1>
+
+    <h3>Fonts in css</h3>
+    <p style="border: 2px solid blue">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+      necessitatibus rem obcaecati? Saepe soluta necessitatibus veritatis illum
+      blanditiis iste fugiat consequatur officiis nemo nisi! Nam voluptates
+      aperiam fugiat iste voluptatum! <mark>default</mark>
+    </p>
+
+    <p style="border: 2px solid blue; font-family: Verdana, sans-serif">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+      necessitatibus rem obcaecati? Saepe soluta necessitatibus veritatis illum
+      blanditiis iste fugiat consequatur officiis nemo nisi! Nam voluptates
+      aperiam fugiat iste voluptatum!
+      <mark
+        >style="border: 2px solid blue; font-family: Verdana, sans-serif"</mark
+      >
+    </p>
+
+    <p style="border: 2px solid blue; font-family: 'Times New Roman', serif">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+      necessitatibus rem obcaecati? Saepe soluta necessitatibus veritatis illum
+      blanditiis iste fugiat consequatur officiis nemo nisi! Nam voluptates
+      aperiam fugiat iste voluptatum!
+      <mark
+        >style="border: 2px solid blue; font-family: 'Times New Roman',
+        serif"</mark
+      >
+    </p>
+
+    <p style="border: 2px solid blue; font-family: Arial, sans-serif">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+      necessitatibus rem obcaecati? Saepe soluta necessitatibus veritatis illum
+      blanditiis iste fugiat consequatur officiis nemo nisi! Nam voluptates
+      aperiam fugiat iste voluptatum!
+      <mark
+        >style="border: 2px solid blue; font-family: Arial, sans-serif"</mark
+      >
+    </p>
+
+    <p style="border: 2px solid blue; font-family: helvetica, sans-serif">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+      necessitatibus rem obcaecati? Saepe soluta necessitatibus veritatis illum
+      blanditiis iste fugiat consequatur officiis nemo nisi! Nam voluptates
+      aperiam fugiat iste voluptatum!
+      <mark
+        >style="border: 2px solid blue; font-family: helvetica,
+        sans-serif"</mark
+      >
+    </p>
+
+    <h3>Font style</h3>
+    <div style="border: 2px solid black">
+      <p style="font-style: normal">
+        This is normal style <mark>style="font-style: normal"</mark>
+      </p>
+      <p style="font-style: italic">
+        This is italic style <mark>style="font-style: italic"</mark>
+      </p>
+      <p style="font-style: oblique">
+        This is oblique style <mark>style="font-style: oblique"</mark>
+      </p>
+    </div>
+
+    <h3>Font Weight</h3>
+    <div style="border: 2px solid blue">
+      <p style="font-weight: normal">
+        This font has 'normal' weight <mark>style="font-weight: normal"</mark>
+      </p>
+      <p style="font-weight: bold">
+        This font has 'bold' weight <mark>style="font-weight: bold"</mark>
+      </p>
+      <p style="font-weight: 900">
+        This font has '900' weight <mark>style="font-weight: 900"</mark>
+      </p>
+    </div>
+
+    <h3>Font varient</h3>
+    <div style="border: 2px ridge blue">
+      <p style="font-variant: normal">
+        This is in normal <mark>style="font-variant: normal</mark>
+      </p>
+      <p style="font-variant: small-caps">
+        This is in small-caps <mark>style="font-variant: small-caps"</mark>
+      </p>
+      <p style="text-transform: uppercase">
+        This is in uppercase <mark>style="text-transform: uppercase"</mark>
+      </p>
+    </div>
+
+    <h3>Font size</h3>
+    <div style="border: 1px solid black">
+      <p style="font-size: 1.5em">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus alias
+        amet consequatur eaque laudantium iste, minus numquam enim facere unde
+        inventore, id aliquid animi pariatur. Esse impedit iste autem quam.
+        <mark>style="font-size: 1.5em"</mark>
+      </p>
+
+      <p style="font-size: 3vw">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus alias
+        amet consequatur eaque laudantium iste, minus numquam enim facere unde
+        inventore, id aliquid animi pariatur. Esse impedit iste autem quam.
+        <mark>style="font-size: 3vw"</mark>
+      </p>
+    </div>
+
+    <h3>Googe font</h3>
+    <p
+      style="font-family: sofia; border: 3px groove blue"
+      class="font-effect-neon"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+      corporis totam, laboriosam voluptatem voluptas magni. Culpa porro dolorem
+      in, pariatur ipsam ipsum alias, qui earum, iure tempore quod beatae ab!
+      <mark>style="font-family: sofia" class="font-effect-fire"</mark>
+    </p>
+
+    <h3>font shorthand property</h3>
+    <p style="font: italic 20px bold sofia" class="font-effect-fire">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+      repudiandae, officiis iure sed nesciunt, nihil eligendi hic voluptatibus,
+      cum tempora laborum ab cupiditate odio dolorem eveniet reiciendis numquam
+      velit vitae.
+      <mark>style="font: italic 20px bold sofia" class="font-effect-fire"</mark>
+    </p>
+
+    <h3>Icons in CSS</h3>
+    <div style="border: 3px outset black">
+      <p>This is Font Awesome Icons</p>
+      <i class="fa-solid fa-cog fa-spin" style="font-size: 50px"></i>
+      <p>This is Bootstrap Glyphicons</p>
+      <i class="glyphicon glyphicon-thumbs-up" style="font-size: 50px"></i>
+      <p>This is Google Icons</p>
+      <i class="material-icons" style="font-size: 50px">attachment</i>
+    </div>
+
+    <h3>Link style in CSS</h3>
+    <div style="border: 3px inset blue">
+      <a
+        href="first.html"
+        target="_blank"
+        class="a1"
+        style="
+          /* color: white;
+          background-color: blue; */
+          text-decoration: none;
+          padding: 10px;
+          border-radius: 50px;
+          display: inline-block;
+          margin: 10px;
+        "
+        >Let's Start</a
+      >
+      <a
+        href="first.html"
+        target="_blank"
+        class="a1 a2"
+        style="
+          text-decoration: none;
+          padding: 10px;
+          border-radius: 50px;
+          display: inline-block;
+          margin: 10px;
+          padding: 10px 25px;
+        "
+        >Stop</a
+      >
+      <br />
+      <p style="margin: 10px">
+        <a href="https://www.youtube.com" target="_blank" class="a1 a3"
+          >Click here to go Youtube</a
+        >
+      </p>
+    </div>
+
+    <h3>Curser style in CSS</h3>
+    <div style="border: 2px solid black; padding: 10px">
+      <a style="cursor: auto" href="index.html"
+        ><mark>style="cursor:auto"</mark></a
+      >
+      <br />
+      <br />
+      <a style="cursor: crosshair" href="index.html"
+        ><mark>style="cursor: crosshair"</mark></a
+      >
+      <br />
+      <br />
+      <a style="cursor: help" href="index.html"
+        ><mark>style="cursor: help"</mark></a
+      >
+      <br />
+      <br />
+      <a style="cursor: progress" href="index.html"
+        ><mark>style="cursor: progress"</mark></a
+      >
+      <br />
+      <br />
+      <a style="cursor: pointer" href="index.html"
+        ><mark>style="cursor: pointer"</mark></a
+      >
+      <br />
+      <br />
+      <a style="cursor: move" href="index.html"
+        ><mark>style="cursor: move"</mark></a
+      >
+      <br />
+      <br />
+      <a style="cursor: text" href="index.html"
+        ><mark>style="cursor: text"</mark></a
+      >
+      <br />
+      <br />
+      <a style="cursor: wait" href="index.html"
+        ><mark>style="cursor: wait"</mark></a
+      >
+      <br />
+      <br />
+      <a style="cursor: n-resize" href="index.html"
+        ><mark>style="cursor: n-resize"</mark></a
+      >
+      <br />
+      <br />
+      <a style="cursor: w-resize" href="index.html"
+        ><mark>style="cursor: w-resize"</mark></a
+      >
+      <br />
+      <br />
+    </div>
+
+    <h3>Unorder list styles in CSS</h3>
+    <div style="border: 2px solid blue; padding: 20px">
+      <ul
+        style="
+          list-style-type: square;
+          display: inline-block;
+          list-style-position: inside;
+        "
+      >
+        <ins> Square marker </ins>
+        <li>mango</li>
+        <li>orange</li>
+        <li>graph</li>
+        <li>banana</li>
+      </ul>
+
+      <ul
+        style="
+          list-style-type: disc;
+          display: inline-block;
+          list-style-position: inside;
+        "
+      >
+        <ins> Disc marker </ins>
+        <li>mango</li>
+        <li>orange</li>
+        <li>graph</li>
+        <li>banana</li>
+      </ul>
+
+      <ul
+        style="
+          list-style-type: circle;
+          display: inline-block;
+          list-style-position: inside;
+        "
+      >
+        <ins> Circle marker </ins>
+        <li>mango</li>
+        <li>orange</li>
+        <li>graph</li>
+        <li>banana</li>
+      </ul>
+
+      <ul
+        style="
+          list-style-type: circle;
+          display: inline-block;
+          list-style-position: inside;
+          list-style-image: url(python-5.svg);
+        "
+      >
+        <ins> Image marker </ins>
+        <li>mango</li>
+        <li>orange</li>
+        <li>graph</li>
+        <li>banana</li>
+      </ul>
+
+      <ul
+        style="
+          list-style-type: none;
+          display: inline-block;
+          list-style-position: inside;
+        "
+      >
+        <ins> None marker </ins>
+        <li>mango</li>
+        <li>orange</li>
+        <li>graph</li>
+        <li>banana</li>
+      </ul>
+    </div>
+
+    <h3>Order list style in CSS</h3>
+    <div style="border: 2px solid #00f">
+      <ol>
+        <ins> Numeric marker </ins>
+        <li>python</li>
+        <li>java</li>
+        <li>c++</li>
+        <li>go</li>
+        <li>javascript</li>
+      </ol>
+
+      <ol style="list-style-type: upper-alpha">
+        <ins> Upper alpha marker </ins>
+        <li>python</li>
+        <li>java</li>
+        <li>c++</li>
+        <li>go</li>
+        <li>javascript</li>
+      </ol>
+
+      <ol style="list-style-type: lower-alpha">
+        <ins> Lower alpha marker </ins>
+        <li>python</li>
+        <li>java</li>
+        <li>c++</li>
+        <li>go</li>
+        <li>javascript</li>
+      </ol>
+
+      <ol style="list-style-type: upper-roman">
+        <ins> Upper roman marker </ins>
+        <li>python</li>
+        <li>java</li>
+        <li>c++</li>
+        <li>go</li>
+        <li>javascript</li>
+      </ol>
+
+      <ol style="list-style-type: lower-roman">
+        <ins> Lower roman marker </ins>
+        <li>python</li>
+        <li>java</li>
+        <li>c++</li>
+        <li>go</li>
+        <li>javascript</li>
+      </ol>
+    </div>
+    <br />
+    <br />
+    <div style="border: 2px solid black; background-color: #00f">
+      <ul class="list-none">
+        <li>python</li>
+        <li>java</li>
+        <li>c++</li>
+        <li>go</li>
+        <li>javascript</li>
+      </ul>
+    </div>
+    <br />
+
+    <h3>Table style in CSS</h3>
+    <table id="employee-table">
+      <caption>
+        Employee Table
+      </caption>
+      <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Experience</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Vinoth</td>
+        <td>EEE</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Ajith</td>
+        <td>MECH</td>
+        <td>2</td>
+      </tr>
+      <tr class="vertical1">
+        <td>3</td>
+        <td>Bala</td>
+        <td>ECE</td>
+        <td>1.5</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+
+    <h3>Responsive table</h3>
+    <div style="overflow-x: auto">
+      <table id="employee-table">
+        <tr>
+          <th>S.No</th>
+          <th>Name</th>
+          <th>Department</th>
+          <th>Experience</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Vinoth</td>
+          <td>EEE</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ajith</td>
+          <td>MECH</td>
+          <td>2</td>
+        </tr>
+        <tr class="vertical1">
+          <td>3</td>
+          <td>Bala</td>
+          <td>ECE</td>
+          <td>1.5</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <!-- <p style="display: none">I am the best in the world</p> -->
+    <h3>Default and Visibility property</h3>
+    <div style="border: 2px solid red">
+      <h2 id="display-none">This is done by display element</h2>
+      <button style="background-color: green" onclick="displayNone()">
+        Display-None
+      </button>
+      <button style="background-color: blue" onclick="displayHidden()">
+        Hidden
+      </button>
+      <button style="background-color: red" onclick="resetOriginal()">
+        Reset
+      </button>
+    </div>
+    <script>
+      function displayNone() {
+        document.getElementById("display-none").style.display = "none";
+      }
+      function resetOriginal() {
+        document.getElementById("display-none").style.visibility = "visible";
+        document.getElementById("display-none").style.display = "block";
+      }
+      function displayHidden() {
+        document.getElementById("display-none").style.visibility = "hidden";
+      }
+    </script>
+  </body>
+</html>
